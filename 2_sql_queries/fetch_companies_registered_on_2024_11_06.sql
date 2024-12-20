@@ -1,0 +1,6 @@
+USE DATABASE GET_COMPANIES;
+USE SCHEMA PUBLIC;
+
+SELECT *
+FROM companies
+WHERE registrationDate = '2024-11-06';
